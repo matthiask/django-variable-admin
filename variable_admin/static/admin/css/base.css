@@ -610,6 +610,7 @@ ul.messagelist li.error {
     border-radius: 4px;
     background-color: var(--body-bg);
     background-position: 5px 12px;
+    overflow-wrap: break-word;
 }
 
 ul.errorlist {
