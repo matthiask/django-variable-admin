@@ -44,9 +44,11 @@
 
 #changelist .paginator {
     color: var(--body-quiet-color);
+    border-top: none;
     border-bottom: 1px solid var(--hairline-color);
     background: var(--body-bg);
     overflow: hidden;
+    width: auto;
 }
 
 /* CHANGELIST TABLES */
@@ -127,7 +129,6 @@
 /* FILTER COLUMN */
 
 #changelist-filter {
-    flex: 1 0 auto;
     order: 1;
     width: 240px;
     background: var(--darkened-bg);
