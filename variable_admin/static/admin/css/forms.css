@@ -4,7 +4,7 @@
 
 .form-row {
     overflow: hidden;
-    padding: 10px 2px;
+    padding: 10px;
     font-size: 13px;
     border-bottom: 1px solid var(--hairline-color);
 }
@@ -20,11 +20,6 @@
 
 form .form-row p {
     padding-left: 0;
-}
-
-.inline-related .form-row {
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 /* FORM LABELS */

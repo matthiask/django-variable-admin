@@ -624,6 +624,7 @@ ul.errorlist li {
     font-size: 13px;
     display: block;
     margin-bottom: 4px;
+    overflow-wrap: break-word;
 }
 
 ul.errorlist li:first-child {

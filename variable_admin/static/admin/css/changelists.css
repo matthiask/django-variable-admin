@@ -44,11 +44,9 @@
 
 #changelist .paginator {
     color: var(--body-quiet-color);
-    border-top: none;
     border-bottom: 1px solid var(--hairline-color);
     background: var(--body-bg);
     overflow: hidden;
-    width: auto;
 }
 
 /* CHANGELIST TABLES */
@@ -102,6 +100,7 @@
 
 #searchbar:focus {
     border-color: var(--body-quiet-color);
+    border-color: #999;
 }
 
 #toolbar form input[type="submit"] {
@@ -231,7 +230,6 @@
     line-height: 22px;
     margin: 0;
     border-top: 1px solid var(--hairline-color);
-    width: 100%;
 }
 
 .paginator a:link, .paginator a:visited {
