@@ -7,7 +7,7 @@ Change log
 ~~~~~~~~~~~~~~
 
 - Static CSS imported from
-  https://github.com/matthiask/django/tree/mk/admin-css-31986-merge
+  https://github.com/matthiask/django/tree/mk/admin-css-variables
 
 
 .. _0.1: https://github.com/matthiask/django-js-asset/commit/e335c79a87

@@ -2,6 +2,7 @@
 
 #changelist {
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -88,7 +89,7 @@
     color: var(--body-fg);
 }
 
-#searchbar {
+#toolbar #searchbar {
     height: 19px;
     border: 1px solid var(--border-color);
     padding: 2px 5px;
@@ -98,9 +99,8 @@
     max-width: 100%;
 }
 
-#searchbar:focus {
+#toolbar #searchbar:focus {
     border-color: var(--body-quiet-color);
-    border-color: #999;
 }
 
 #toolbar form input[type="submit"] {
@@ -230,6 +230,7 @@
     line-height: 22px;
     margin: 0;
     border-top: 1px solid var(--hairline-color);
+    width: 100%;
 }
 
 .paginator a:link, .paginator a:visited {
