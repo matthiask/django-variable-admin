@@ -3,10 +3,14 @@ django-variable-admin -- Administration interface styling using CSS variables
 =============================================================================
 
 This project allows changing the colors used in Django's administration
-panel using CSS variables. It is an import of the code in
-https://github.com/django/django/pull/13435 into a standalone repository
-with the aims of allowing testing and maybe, in the future, allowing to
-use CSS variables when not using the latest and best Django version.
+panel using CSS variables. It only contains a copy of the CSS files
+which will be a part of the upcoming Django 3.2 release. The project is
+mainly intended for those who want to get their hands on the new theming
+and dark mode support a little bit earlier.
+
+Also, if things do not look right *please* report those issues to the
+Django project (maybe while adding me to the Cc:) so that they can be
+fixed there.
 
 
 Usage
@@ -27,11 +31,3 @@ insert ``variable_admin`` **before** ``django.contrib.admin`` into
 
 ``./manage.py collectstatic`` now complains about duplicates with the
 same destination path. That's to be expected.
-
-
-Compatibility
-=============
-
-Assuming that the pull request
-https://github.com/django/django/pull/13435 lands in Django 3.2 this package
-is only useful for Django <= 3.1.x.
